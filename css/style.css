@@ -22,9 +22,8 @@ h1 {
 }
 
 .box {
-    width: calc(100% / 7);
-    max-width: 100px;
-    height: 100px;
+    width: calc((100% / 7) - 40px);
+    height: auto;
     line-height: 100px;
     background-color: hsl(195deg 81% 39%);
     margin: 20px;
