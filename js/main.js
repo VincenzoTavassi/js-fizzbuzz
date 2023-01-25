@@ -4,12 +4,12 @@
 
 
 // CREO DIV PER CONTENERE RISULTATO 
-let DivContenitoreEl = document.createElement('div');
+const DivContenitoreEl = document.createElement('div');
 // ASSEGNO CLASSE ROW AL DIV 
 DivContenitoreEl.classList.add('row');
 
 // OTTENGO IL CONTAINER DELLA PAGINA
-let containerEl = document.getElementById('main-container')
+const containerEl = document.getElementById('main-container')
 // INSERISCO DIV NEL CONTAINER
 containerEl.append(DivContenitoreEl);
 
@@ -17,7 +17,7 @@ containerEl.append(DivContenitoreEl);
 for (i = 1; i <= 100; i++) {
 
     // CREO UN TAG DIV PER OGNI ELEMENTO E GLI ASSEGNO CLASSE BOX
-    let numeroEl = document.createElement('div');
+    const numeroEl = document.createElement('div');
     numeroEl.classList.add('box');
 
     // INSERISCO IL DIV CON CLASSE BOX NEL DIV PRINCIPALE
