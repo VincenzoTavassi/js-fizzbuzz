@@ -20,7 +20,7 @@ for (i = 1; i <= 100; i++) {
     let numeroEl = document.createElement('div');
     numeroEl.classList.add('box');
 
-    // INSERISCO TUTTI I TAG DIV NEL DIV PRINCIPALE
+    // INSERISCO IL DIV CON CLASSE BOX NEL DIV PRINCIPALE
     DivContenitoreEl.append(numeroEl);
 
     // SE IL NUMERO E' MULTIPLO DI 5 E DI 3 STAMPO FIZZBUZZ E ASSEGNO LA CLASSE ADATTA
