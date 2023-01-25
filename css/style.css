@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(195deg 81% 16%);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: calc(100% / 7);
+    max-width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: hsl(195deg 81% 39%);
+    margin: 20px;
+}
+
+.box.fizz {
+    background-color: hsl(164deg 89% 44%)
+}
+
+.box.buzz {
+    background-color: hsl(42deg 100% 70%)
+}
+
+.box.fizz-buzz {
+    background-color: hsl(346deg 85% 61%);
+}
