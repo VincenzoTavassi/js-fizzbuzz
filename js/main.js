@@ -14,7 +14,7 @@ const containerEl = document.getElementById('main-container')
 containerEl.append(DivContenitoreEl);
 
 // CICLO DI 100 A PARTIRE DA 1
-for (i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     // CREO UN TAG DIV PER OGNI ELEMENTO E GLI ASSEGNO CLASSE BOX
     const numeroEl = document.createElement('div');
